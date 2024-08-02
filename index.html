@@ -1,184 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
+  <meta charset="utf-8">
 
 
-<title>invoice card - Bootdey.com</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
-<style type="text/css">
-    	body{margin-top:20px;
-background-color:#ebe9dc;
-}
+  <title>Factura G.S.D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      margin-top: 20px;
+      background-color: #ebe9dc;
+    }
 
-.card {
-    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
-}
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 0 solid rgba(0,0,0,.125);
-    border-radius: 1rem;
-}
-    </style>
+    .card {
+      box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+    }
+
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      border: 0 solid rgba(0, 0, 0, .125);
+      border-radius: 1rem;
+    }
+  </style>
 </head>
+
 <body>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<div class="card">
-<div class="card-body">
-<div class="invoice-title">
-
-  
-<img  src="https://drive.google.com/thumbnail?sz=w1200&id=1l6e6Av993TWlmQG0De5msLjIX5aa3We_" alt="LOGO PRC" width="160" height="" class="float-end"></img>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-body">
+            <div class="invoice-title">
 
 
-<img  src="https://drive.google.com/thumbnail?sz=w1200&id=1c_IElybYx2Z3Bqptr7YWCe7Ucv5WeXli" alt="LOGO CASHEA" width="180" height="" class="mb-4"></img>
+              <img src="https://drive.google.com/thumbnail?sz=w1200&id=1l6e6Av993TWlmQG0De5msLjIX5aa3We_" alt="LOGO PRC"
+                width="160" height="" class="float-end"></img>
 
 
-<div class="mb-4">
-<h3 class="mb-1 text-black">DETALLE DE DEUDA PENDIENTE</h3>
-
-</div>
-<div class="text-muted">
-<p class="mb-1">Nombre y apellido: Juan Martinez</p>
-<p class="mb-1">C.I: 12345678</p>
-<p class="uil uil-phone me-1">Teléfono: 0412-11111111</p>
-
-</div>
-<h5 class="mb-2 text-black">MONTO TOTAL ABONADO:  <h9 class="text-danger">40$</H6>
-
-</div>
-
-<hr class="my-4">
+              <img src="https://drive.google.com/thumbnail?sz=w1200&id=1c_IElybYx2Z3Bqptr7YWCe7Ucv5WeXli"
+                alt="LOGO CASHEA" width="180" height="" class="mb-4"></img>
 
 
+              <div class="mb-4">
+                <h3 class="mb-1 text-black">DETALLE DE DEUDA PENDIENTE</h3>
 
+              </div>
+              <div class="text-muted">
+                <h9 class="mb-1">Nombre y apellido: <h9 id="NOMYAP"> martinez</h9>
+                </h9>
+                <p class="mb-1">C.I: <h9 ID="C.I"></h9>
+                <p class="uil uil-phone me-1">Número de Teléfono: <h9 ID="TLF"></h9>
+                <p class="float-end">Fecha de carga: <h9 ID="Fecha_carga">20202</h9>
+              </div>
+              <h5 class="mb-2 text-black">MONTO TOTAL ABONADO: <h9 class="text-danger" ID="TOTALDD">
+                  </H6>
 
-<div class="py-2">
-<h5 class="font-size-15">Lista de Cuotas</h5>
-<div class="table-responsive">
-<table class="table align-middle table-nowrap table-centered mb-0">
-<thead>
-<tr>
+            </div>
 
-<th>Fecha de compra</th>
-<th>ID Cuota</th>
-<th>Cuota</th>
-<th>Deuda Inicial</th>
-<th>Abono</th>
-<th >Sub-Total</th>
-
-
-
-</tr>
-</thead>
-<tbody>
-<tr>
-
-<th scope="row">27/07/2024</th>
-<th scope="row">1002421</th>
-<th scope="row">2</th>
-<th scope="row">25$</th>
-<th scope="row">15$</th>
-<th class="text-secondary">10$</TH>
-<td>
-<div>
-</tr>
+            <hr class="my-4">
 
 
 
 
-  <tr>
-  
-  <th scope="row">27/07/2024</th>
-  <th scope="row">1002421</th>
-  <th scope="row">2</th>
-  <th scope="row">25$</th>
-  <th scope="row">15$</th>
-  <th class="text-secondary">10$</TH>
-  <td>
-  <div>
-  </tr>
+            <div class="py-2">
+              <h5 class="font-size-15">Lista de Cuotas</h5>
+              <div class="table-responsive">
+                <table class="table align-middle table-nowrap table-centered mb-0">
+                  <thead>
+                    <tr>
+
+                      <th>Fecha de compra</th>
+                      <th>ID Cuota</th>
+                      <th>Cuota</th>
+                      <th>Deuda Inicial</th>
+                      <th>Abono</th>
+                      <th>Sub-Total</th>
 
 
-    <tr>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+
+                      <th scope="row" ID="Fecha_compra"></th>
+                      <th scope="row" id="id_cuota"></th>
+                      <th scope="row" id="Tp_cuota"></th>
+                      <th scope="row" id="deuda_incial"></th>
+                      <th scope="row" id="aBONO"></th>
+                      <th class="text-secondary" id="sUB_TOTAL"></TH>
+                      <td>
+                        <div>
+                    </tr>
+                  </tbody>
+
+                </table>
+
+
+                <div class="mb-4"></div>
+
+
+
+                <img src="https://drive.google.com/thumbnail?sz=w1200&id=1Xc8xgbflge7dXU-885LGKNNCmyURf347"
+                  alt="MET CASHEA" width="850" height="" class="IMGCENTER"></img>
+
+                <style>
+                  .IMGCENTER {
+                    display: block;
+                    /* Make the image a block-level element */
+                    margin: 0 auto;
+                    /* Center the image horizontally and vertically */
+                  }
+                </style>
+
+
+                <div class="mb-4"></div>
+                <div class="d-print-none mt-4">
+                  <h6 class="text-center">PRC333, C.A actúa como autorizado de cobranzas de CASHEA</h>
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+
+    //CONSTANTE PARA LOCALIZAR DATOS
+
+    const params = new URLSearchParams(window.location.search);
+
+    //OBTENER VALOPRES DE LOS PARAMETROS
+
+    var nombre = params.has('NOMYAP') ? params.get('NOMYAP') : " ";
+    var cedula = params.has('C.I') ? params.get('C.I') : " ";
+    var Tlf = params.has('TLF') ? params.get('TLF') : " ";
+    var Fecha_carga = params.has('Fecha_carga') ? params.get('Fecha_carga') : "dd/mm/aaaa";
+    var FECOMPRA = params.has('Fecha_compra') ? params.get('Fecha_compra') : "dd/mm/aaaa";
+    var IDCUOTA = params.has('id_cuota') ? params.get('id_cuota') : " ";
+    var Cuota = params.has('Tp_cuota') ? params.get('Tp_cuota') : " ";
+
+
+    // RECIBE VALOR SEPARADOS POR COMAS
+
+   
+
+
+
+    //EXTRAE DATOS DE VALOR DECIMAL
+    Total = parseFloat(Total).toLocaleString('en-US', { minimumFractionDigits: 0 });
+    deuda_incial = parseFloat(Total).toLocaleString('en-US', { minimumFractionDigits: 0 });
+    aBONO = parseFloat(Total).toLocaleString('en-US', { minimumFractionDigits: 0 });
+    sUB_TOTAL = parseFloat(Total).toLocaleString('en-US', { minimumFractionDigits: 0 });
+   
+
+
+
+    //MOSTRAR VALORES EN LA TABLA
+
+    var Nombre_Element = document.getElementById("NOMYAP").textContent = nombre;
+    var CI_Element = document.getElementById("C.I").textContent = cedula;
+    var TLF_Element = document.getElementById("TLF").textContent = Tlf;
+    var TOTAl_Element = document.getElementById("TOTALDD").textContent = Total;
+    var Fecha_element = document.getElementById("Fecha_carga").textContent = Fecha_carga;
+    var FechaC_element = document.getElementById("Fecha_compra").textContent = FECOMPRA;
+    var Tp_cuota_element = document.getElementById("Tp_cuota").textContent = Cuota;
+    var DEUDA_element = document.getElementById("deuda_incial").textContent = deuda_incial;
+    var ABONO_element = document.getElementById("aBONO").textContent = aBONO;
+    var SUBTTL_element = document.getElementById("sUB_TOTAL").textContent = sUB_TOTAL;
+
     
-    <th scope="row">27/07/2024</th>
-    <th scope="row">1002421</th>
-    <th scope="row">2</th>
-    <th scope="row">25$</th>
-    <th scope="row">15$</th>
-    <th class="text-secondary">10$</TH>
-    <td>
-    <div>
-    </tr>
-
-      <tr>
-      
-      <th scope="row">27/07/2024</th>
-      <th scope="row">1002421</th>
-      <th scope="row">2</th>
-      <th scope="row">25$</th>
-      <th scope="row">15$</th>
-      <th class="text-secondary">10$</TH>
-      <td>
-      <div>
-      </tr>
-
-      
-
-</tbody>
-
-</table>
-
-
-<div class="mb-4"></div>
-
-
-
-<img  src="https://drive.google.com/thumbnail?sz=w1200&id=1Xc8xgbflge7dXU-885LGKNNCmyURf347" alt="MET CASHEA" width="850" height="" class="IMGCENTER"></img>
-
-<style>
-
-.IMGCENTER {
-    display: block;  /* Make the image a block-level element */
-    margin: 0 auto;  /* Center the image horizontally and vertically */
-}
-</style>
-
-
-<div class="mb-4"></div>
-<div class="d-print-none mt-4">
-  <h6 class="text-center">PRC333, C.A actúa como autorizado de cobranzas de CASHEA</h>
-
-
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
 
 
 
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript">
-	
-</script>
+
+
+
+
+
+
+
+  </script>
 </body>
+
 </html>
